@@ -146,7 +146,7 @@ printf("\n\nPresione cualquier tecla para continuar...");
                 }while(opc5=='s'||opc5=='S');
                 break;
             case 6:
-                break;
+                return 0;
             default:
                 printf("Opcion no valida\n");
                 break;
